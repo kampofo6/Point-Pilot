@@ -1,19 +1,10 @@
-import { AuthCheck } from "@/components/auth-check";
+import { AuthCheck } from "@/lib/auth-check";
 
 export default function DashboardPage() {
   return (
     <AuthCheck>
-      <div className="min-h-screen bg-gray-50 p-8">
+      <div className="min-h-screen p-8">
         <div className="max-w-4xl mx-auto">
-          <div className="mb-8">
-            <h1 className="text-3xl font-bold text-gray-900">
-              Welcome to PointPilot Dashboard
-            </h1>
-            <p className="text-gray-600 mt-2">
-              Track and optimize your credit card rewards
-            </p>
-          </div>
-
           <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
             <div className="bg-white rounded-lg p-6 shadow-sm border">
               <h3 className="text-lg font-semibold text-gray-900 mb-2">
